@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Welcome to Sass</title>
+	<link rel="stylesheet" href="bundle.css">
+</head>
+
+<body class="documentation">
+
+	<section class="container-fluid">
+		<div class="jumbotron">
+			<h2 class="doc-title">Sass & Bootstrap 4</h2>
+			<p class="lead">
+				Sass is an extension of CSS that adds power and elegance to the basic language. It allows to use variables, nested rules, mixins, inline imports, and more
+			</p>
+			<p class="lead">Bootstrap 4 Cards require a small amount of markup and classes to provide you with as much control as possible. These classes and
+				markup are flexible though and can typically be remixed and extended with ease. For example, if your card has no flush
+				content like images, feel free to put the <code>.card-block</code> class on the <code>.card</code> element to consolidate
+				your markup.
+			</p>
+		</div>
+	</section>
+
+	<section class="container-fluid">
+
+		<div class="card-columns">
+
+			<!--Fancy Card-->
+			<div class="card">
+				<!--Card image-->
+				<div class="view overlay hm-white-slight">
+					<img src="http://mdbootstrap.com/images/reg/reg%20(3).jpg" class="img-fluid" alt="">
+					<a>
+						<div class="mask"></div>
+					</a>
+				</div>
+
+				<!--Button-->
+				<a class="btn-floating btn-action"><i class="fa fa-chevron-right"></i></a>
+
+				<!--Card content-->
+				<div class="card-block">
+					<h4 class="card-title">Card title</h4>
+					<hr>
+					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+				</div>
+				<!--/.Card content-->
+
+				<!-- Card footer -->
+				<div class="card-data">
+					<ul>
+						<li><i class="fa fa-clock-o"></i> 05/10/2015</li>
+						<li><a href="#"><i class="fa fa-comments-o"></i>12</a></li>
+						<li><a href="#"><i class="fa fa-facebook"> </i>21</a></li>
+						<li><a href="#"><i class="fa fa-twitter"> </i>5</a></li>
+					</ul>
+				</div>
+				<!-- Card footer -->
+			</div>
+
+			<!--Basic Card-->
+			<div class="card">
+				<img class="img-fluid" src="http://mdbootstrap.com/images/regular/nature/img%20(28).jpg" alt="Card image cap">
+				<div class="card-block">
+					<h4 class="card-title">Card title</h4>
+					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					<a href="" class="btn btn-primary">Button</a>
+				</div>
+			</div>
+			<!--/.Basic Card-->
+
+			<!--Basic with Mask-->
+			<div class="card">
+				<div class="view overlay hm-white-slight">
+					<img src="http://mdbootstrap.com/images/reg/reg%20(2).jpg" class="img-fluid" alt="">
+					<a href="">
+						<div class="mask"></div>
+					</a>
+				</div>
+				<div class="card-block">
+					<h4 class="card-title">Card title</h4>
+					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					<a href="#" class="btn btn-primary">Button</a>
+				</div>
+			</div>
+			<!--/.Basic with Mask-->
+
+			<div class="card">
+				<!--Card image-->
+				<div class="view overlay hm-white-slight">
+					<img src="http://mdbootstrap.com/images/reg/reg%20(59).jpg" class="img-fluid" alt="">
+					<a href="#">
+						<div class="mask"></div>
+					</a>
+				</div>
+				<!--/.Card image-->
+				<!--Social shares button-->
+				<a class="activator"><i class="fa fa-share-alt"></i></a>
+				<!--Card content-->
+				<div class="card-block">
+					<h4 class="card-title">Card title</h4>
+					<hr>
+					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					<a href="" class="link-text">
+						<h5>Read more <i class="fa fa-chevron-right"></i></h5>
+					</a>
+				</div>
+				<!--/.Card content-->
+			</div>
+
+			<div class="card card-dark">
+				<!--Card image-->
+				<div class="view overlay hm-white-slight">
+					<img src="http://mdbootstrap.com/images/reg/reg%20(55).jpg" class="img-fluid" alt="">
+					<a href="#">
+						<div class="mask"></div>
+					</a>
+				</div>
+				<!--/.Card image-->
+				<!--Social shares button-->
+				<a class="activator"><i class="fa fa-share-alt"></i></a>
+				<!--Card content-->
+				<div class="card-block">
+					<!--Title-->
+					<h4 class="card-title">Card title</h4>
+					<hr>
+					<!--Text-->
+					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					<a href="" class="link-text">
+						<h5>Read more <i class="fa fa-chevron-right"></i></h5>
+					</a>
+				</div>
+				<!--/.Card content-->
+			</div>
+
+			<div class="card testimonial-card">
+				<!--Background color-->
+				<div class="card-up default-color-dark">
+				</div>
+				<!--Avatar-->
+				<div class="avatar"><img src="http://mdbootstrap.com/wp-content/uploads/2015/10/avatar-2.jpg" class="img-circle img-responsive">
+				</div>
+				<div class="card-block">
+					<!--Name-->
+					<h4 class="card-title">Anna Doe</h4>
+					<hr>
+					<!--Quotation-->
+					<p><i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci</p>
+				</div>
+			</div>
+
+			<div class="card">
+				<!--Card image-->
+				<div class="view overlay hm-white-slight">
+					<img src="http://mdbootstrap.com/images/slides/slide%20(13).jpg" class="img-fluid" alt="">
+					<a>
+						<div class="mask"></div>
+					</a>
+				</div>
+				<!--/.Card image-->
+				<!--Rating-->
+				<a class="btn rating">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star-o"></i>
+				</a>
+
+				<!-- Card footer -->
+				<div class="card-review">
+					<h4 class="card-title">Card title</h4>
+					<ul>
+						<li><i class="fa fa-clock-o"></i> 05/10/2015</li>
+						<li><a href="#"><i class="fa fa-comments-o"></i>12</a></li>
+						<li><a href="#"><i class="fa fa-facebook"> </i>21</a></li>
+						<li><a href="#"><i class="fa fa-twitter"> </i>5</a></li>
+					</ul>
+				</div>
+				<!-- Card footer -->
+			</div>
+
+			<!--Rotating card-->
+			<div class="card-wrapper">
+				<div id="card-1" class="card-rotating effect__click">
+
+					<!--Front Side-->
+					<div class="face front">
+
+						<!-- Image-->
+						<div class="card-up">
+							<img src="http://mdbootstrap.com/images/reg/reg%20(35).jpg" class="img-fluid">
+						</div>
+						<!--Avatar-->
+						<div class="avatar"><img src="http://mdbootstrap.com/wp-content/uploads/2015/10/team-avatar-2.jpg" class="img-circle img-responsive">
+						</div>
+						<!--Content-->
+						<h4>Jonathan Doe</h4>
+						<p>Web developer</p>
+						<!--Triggering button-->
+						<a class="rotate-btn" data-card="card-1"><i class="fa fa-repeat"> Click here to rotate</i></a>
+
+					</div>
+					<!--/.Front Side-->
+
+					<!--Back Side-->
+					<div class="face back">
+
+						<!--Content-->
+						<h4>About me</h4>
+						<hr>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime quae, dolores dicta. Blanditiis rem amet repellat,
+							dolores nihil quae in mollitia asperiores ut rerum repellendus, voluptatum eum, officia laudantium quaerat?</p>
+						<hr>
+						<!--Social Icons-->
+						<ul class="inline-ul">
+							<li><a class="icons-sm fb-ic"><i class="fa fa-facebook"></i></a></li>
+							<li><a class="icons-sm tw-ic"><i class="fa fa-twitter"></i></a></li>
+							<li><a class="icons-sm gplus-ic"><i class="fa fa-google-plus"></i></a></li>
+							<li><a class="icons-sm li-ic"><i class="fa fa-linkedin"></i></a></li>
+						</ul>
+						<!--Triggering button-->
+						<a class="rotate-btn" data-card="card-1"><i class="fa fa-undo"> Click here to rotate back</i></a>
+
+					</div>
+					<!--/.Back Side-->
+
+				</div>
+			</div>
+			<!--/.Rotating card-->
+
+			<!--Card Inverse-->
+			<div class="card card-inverse">
+
+				<!--Image-->
+				<img class="img-fluid" src="http://mdbootstrap.com/images/regular/nature/img%20(4).jpg" alt="Card image">
+
+				<!--Content-->
+				<div class="card-img-overlay">
+					<h4 class="card-title">Card title</h4>
+					<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little
+						bit longer.</p>
+					<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+				</div>
+
+			</div>
+			<!--/.Card Inverse-->
+
+
+		</div>
+
+	</section>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="assets/lib/tether/js/tether.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js"></script>
+
+	<script>
+		$('.rotate-btn').on('click', function(){
+			$('#card-1').toggleClass('flipped')
+		})
+	</script>
+
+</body>
+
+</html>

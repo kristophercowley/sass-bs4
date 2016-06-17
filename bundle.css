@@ -1,0 +1,79 @@
+@import url(//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css);
+@import url(//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+@import url(assets/css/bootstrap-material.css);
+@import url(assets/lib/tether/css/tether.min.css);
+/********************
+ * DONT MODIFY BASE *
+ ********************/
+body {
+  background: white;
+  color: #d1338c; }
+
+a {
+  color: #33d178; }
+  a :hover {
+    text-decoration: none;
+    cursor: pointer; }
+  .card a.activator {
+    color: #1b7944; }
+
+.btn {
+  border-radius: 0px; }
+
+.primary-color {
+  background: #2ecc73; }
+
+.primary-light {
+  background: #54d98e; }
+
+.primary-lighter {
+  background: #7ee2aa; }
+
+.primary-dark {
+  background: #25a25c; }
+
+.primary-darker {
+  background: #1b7944; }
+
+.complement {
+  background: #cc2e87; }
+
+.invert {
+  background: #d1338c; }
+
+.opacify {
+  background: #2ecc73; }
+
+.primary {
+  background: #2ecc73; }
+  .primary:hover {
+    background: #58d68f; }
+
+.secondary {
+  background: #E74C3C; }
+  .secondary:hover {
+    background: #ec7063; }
+
+.tertiary {
+  background: #2e87cc; }
+  .tertiary:hover {
+    background: #589fd6; }
+
+.m10 {
+  margin: 10px; }
+
+.mtb10 {
+  margin: 10px 0; }
+
+.text-white {
+  color: #fff !important; }
+
+.card-data {
+  background-color: #25a25c !important; }
+
+.card {
+  background: #2ecc73;
+  color: #E6E6E6; }
+
+.btn-floating {
+  background-color: #cc2e87 !important; }
